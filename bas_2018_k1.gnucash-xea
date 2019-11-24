@@ -97,8 +97,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">239a89c8081087a789d3e787d68e8d7f</act:parent>
 </gnc:account>
 
-
-
 <gnc:account version="2.0.0">
   <act:name>11 Byggnader och mark</act:name>
   <act:id type="guid">8ce79ee3346df6cd06ccb1cebead42cb</act:id>
@@ -646,7 +644,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">4a545cb3bbba64a424b782cff8fc1090</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>17 Förskott till leverantörer</act:name>
   <act:id type="guid">a6ddd0038008f72c3641d3f8a10a6e44</act:id>
@@ -687,10 +684,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">a6ddd0038008f72c3641d3f8a10a6e44</act:parent>
 </gnc:account>
 
-
-
-
-
 <gnc:account version="2.0.0">
   <act:name>19 Kassa och bank</act:name>
   <act:id type="guid">df5eca40bc7e9bb8fac067d26a15b2fa</act:id>
@@ -715,7 +708,7 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
 <gnc:account version="2.0.0">
   <act:name>1910 Kassa</act:name>
   <act:id type="guid">9dd99a757606bea0d9960f1f7fac5ac9</act:id>
-  <act:type>ASSET</act:type>
+  <act:type>CASH</act:type>
   <act:commodity>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>SEK</cmdty:id>
@@ -733,7 +726,7 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
 <gnc:account version="2.0.0">
   <act:name>1920 PlusGiro</act:name>
   <act:id type="guid">1e03d5b8a1ef0570d6e8816525d2cb04</act:id>
-  <act:type>ASSET</act:type>
+  <act:type>BANK</act:type>
   <act:commodity>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>SEK</cmdty:id>
@@ -751,7 +744,7 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
 <gnc:account version="2.0.0">
   <act:name>1930 Företagskonto/checkkonto/affärskonto</act:name>
   <act:id type="guid">9e3889245bc1fe8e60e4ebde71121e55</act:id>
-  <act:type>ASSET</act:type>
+  <act:type>BANK</act:type>
   <act:commodity>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>SEK</cmdty:id>
@@ -769,7 +762,7 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
 <gnc:account version="2.0.0">
   <act:name>1940 Övriga bankkonton</act:name>
   <act:id type="guid">c05d3b4fb381ae36f77995fbf36c887a</act:id>
-  <act:type>ASSET</act:type>
+  <act:type>BANK</act:type>
   <act:commodity>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>SEK</cmdty:id>
@@ -787,7 +780,7 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
 <gnc:account version="2.0.0">
   <act:name>1970 Särskilda bankkonton</act:name>
   <act:id type="guid">58eda267ec774ea496bfb8b3bf9eb432</act:id>
-  <act:type>ASSET</act:type>
+  <act:type>BANK</act:type>
   <act:commodity>
     <cmdty:space>ISO4217</cmdty:space>
     <cmdty:id>SEK</cmdty:id>
@@ -802,10 +795,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">df5eca40bc7e9bb8fac067d26a15b2fa</act:parent>
 </gnc:account>
-
-
-
-
 
 <gnc:account version="2.0.0">
   <act:name>2 EGET KAPITAL OCH SKULDER</act:name>
@@ -849,7 +838,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">3f9e37a71410baf409c19d761a821efa</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>2010 Eget kapital, delägare 1</act:name>
@@ -1087,8 +1075,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">9602fd8bd0ef942b260b68d649b1105d</act:parent>
 </gnc:account>
 
-
-
 <gnc:account version="2.0.0">
   <act:name>2080 Periodiseringsfonder</act:name>
   <act:id type="guid">935bbd2db358dbc20876b7847c20cd80</act:id>
@@ -1258,8 +1244,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">9602fd8bd0ef942b260b68d649b1105d</act:parent>
 </gnc:account>
 
-
-
 <gnc:account version="2.0.0">
   <act:name>23 Låneskulder</act:name>
   <act:id type="guid">b5151c31646cd499850ef318abd46590</act:id>
@@ -1375,7 +1359,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">d354f1f76b4aed575a3ed4cacd835203</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>26 Moms och särskilda punktskatter</act:name>
@@ -1939,7 +1922,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">7df80aaf19a12c74a87eb5970f41098a</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>27 Personalens skatter, avgifter och löneavdrag</act:name>
   <act:id type="guid">3b664b5bd2464be623414bc7006d1bff</act:id>
@@ -1998,7 +1980,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">3b664b5bd2464be623414bc7006d1bff</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>29 Övriga skulder</act:name>
   <act:id type="guid">de6fe9710408157e5f24d1ea87cd0999</act:id>
@@ -2038,7 +2019,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">de6fe9710408157e5f24d1ea87cd0999</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>3 RÖRELSENS INKOMSTER/INTÄKTER</act:name>
@@ -2155,7 +2135,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">fef105cdfcaba2396588c82ecf5ebf45</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>35 Fakturerade kostnader</act:name>
   <act:id type="guid">f33b546190f5608863daf185241cd82d</act:id>
@@ -2196,8 +2175,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">f33b546190f5608863daf185241cd82d</act:parent>
 </gnc:account>
 
-
-
 <gnc:account version="2.0.0">
   <act:name>37 Intäktskorrigeringar</act:name>
   <act:id type="guid">cfb26d1a7f1c6650e64b34b41181c8b9</act:id>
@@ -2237,7 +2214,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">cfb26d1a7f1c6650e64b34b41181c8b9</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>39 Övriga rörelseintäkter</act:name>
@@ -2315,8 +2291,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">7e9adb7a36e1248bd5c9eedd5596daa0</act:parent>
 </gnc:account>
 
-
-
 <gnc:account version="2.0.0">
   <act:name>4 UTGIFTER/KOSTNADER FÖR VAROR, MATERIAL OCH VISSA KÖPTA TJÄNSTER</act:name>
   <act:id type="guid">e60ff13ba85f36e5ff013f2245c56a23</act:id>
@@ -2377,7 +2351,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">2fd4dc2c72a0d51c7a3b54f61be5bd4e</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>46 Legoarbeten, underentreprenader</act:name>
@@ -2459,7 +2432,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">f2e3421559c217e636e34553be7047e2</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>49 Förändring av lager</act:name>
   <act:id type="guid">fb93020f8515aa485282518945534233</act:id>
@@ -2499,7 +2471,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">fb93020f8515aa485282518945534233</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>5–6 ÖVRIGA EXTERNA RÖRELSEUTGIFTER/KOSTNADER</act:name>
@@ -2562,8 +2533,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">65b1c6ec7f07a8252235e191b69aee2e</act:parent>
 </gnc:account>
 
-
-
 <gnc:account version="2.0.0">
   <act:name>51 Fastighetskostnader</act:name>
   <act:id type="guid">d15302427553c8b89c07a5f77ccbc226</act:id>
@@ -2603,7 +2572,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">d15302427553c8b89c07a5f77ccbc226</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>52 Hyra av anläggningstillgångar</act:name>
@@ -2645,8 +2613,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">15765a16995b11a12331fc8ba3df1d93</act:parent>
 </gnc:account>
 
-
-
 <gnc:account version="2.0.0">
   <act:name>54 Förbrukningsinventarier och förbrukningsmaterial</act:name>
   <act:id type="guid">174ce570da1803d21dc4427a118752db</act:id>
@@ -2687,8 +2653,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">174ce570da1803d21dc4427a118752db</act:parent>
 </gnc:account>
 
-
-
 <gnc:account version="2.0.0">
   <act:name>55 Reparation och underhåll</act:name>
   <act:id type="guid">5977ffe944910809524c416d1b598d0d</act:id>
@@ -2728,7 +2692,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">5977ffe944910809524c416d1b598d0d</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>56 Kostnader för transportmedel</act:name>
@@ -2914,7 +2877,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">c60ea041e268a87a402ec8f84e635d59</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>57 Frakter och transporter</act:name>
   <act:id type="guid">5152a3aa26e912bca990d9aaad75c789</act:id>
@@ -3035,7 +2997,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">5fafc6c85ed1f9476772d954282ccaf5</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>60 Övriga försäljningskostnader</act:name>
   <act:id type="guid">fe681ef4b1cb94ee9a45459989606d97</act:id>
@@ -3130,7 +3091,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">37484c37850fc5a8ea7a900ff3d5f3ee</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>61 Kontorsmateriel och trycksaker</act:name>
   <act:id type="guid">b1be8dc4a0fe37b6716f0bba64b82503</act:id>
@@ -3171,7 +3131,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">b1be8dc4a0fe37b6716f0bba64b82503</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>62 Tele och post</act:name>
   <act:id type="guid">0f7d8d465d24a66ff273a97c9c4d32d5</act:id>
@@ -3211,8 +3170,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">0f7d8d465d24a66ff273a97c9c4d32d5</act:parent>
 </gnc:account>
-
-
 
 <gnc:account version="2.0.0">
   <act:name>63 Företagsförsäkringar och övriga riskkostnader</act:name>
@@ -3272,8 +3229,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">ff3845e8e8f4b32c1b062d42c50ddcee</act:parent>
 </gnc:account>
 
-
-
 <gnc:account version="2.0.0">
   <act:name>65 Övriga externa tjänster</act:name>
   <act:id type="guid">d6814a1b83873474e28875f0a2027454</act:id>
@@ -3313,7 +3268,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">d6814a1b83873474e28875f0a2027454</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>68 Inhyrd personal</act:name>
@@ -3413,7 +3367,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">a1ec7c5d4746cc880d983978648f5f18</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>7 UTGIFTER/KOSTNADER FÖR PERSONAL, AVSKRIVNINGAR M.M.</act:name>
   <act:id type="guid">4337b5c87fc4c5b494a505c1268e3078</act:id>
@@ -3475,7 +3428,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">13e61b9ddadcea4005a86fb9109c715d</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>73 Kostnadsersättningar och förmåner</act:name>
   <act:id type="guid">62081d8b6a9f2a4bf744c5647739e8c5</act:id>
@@ -3516,7 +3468,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">62081d8b6a9f2a4bf744c5647739e8c5</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>74 Pensionskostnader</act:name>
   <act:id type="guid">8e050fe19cfd9a779d2ca2b9bdd61067</act:id>
@@ -3556,7 +3507,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">8e050fe19cfd9a779d2ca2b9bdd61067</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>75 Sociala och andra avgifter enligt lag och avtal</act:name>
@@ -3601,7 +3551,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">ce35a8e8884f339372c6dcdfe9cc2281</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>76 Övriga personalkostnader</act:name>
@@ -3679,8 +3628,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">f366b8ddeb2ba315b81b9324f4dd724f</act:parent>
 </gnc:account>
 
-
-
 <gnc:account version="2.0.0">
   <act:name>77 Nedskrivningar och återföring av nedskrivningar</act:name>
   <act:id type="guid">b4749dee29139481b09b438dcc391e5d</act:id>
@@ -3720,7 +3667,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">b4749dee29139481b09b438dcc391e5d</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>78 Avskrivningar</act:name>
@@ -3798,7 +3744,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">506613151e8e83915efd53d750ac5850</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>79 Övriga rörelsekostnader</act:name>
   <act:id type="guid">913bbbbf9939836b2c7d1ff368b748ba</act:id>
@@ -3856,7 +3801,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">913bbbbf9939836b2c7d1ff368b748ba</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>8 FINANSIELLA OCH ANDRA INKOMSTER/INTÄKTER OCH UTGIFTER/KOSTNADER</act:name>
@@ -3955,7 +3899,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   <act:parent type="guid">b5df992121ac4871d2cf519895f7461e</act:parent>
 </gnc:account>
 
-
 <gnc:account version="2.0.0">
   <act:name>84 Räntekostnader och liknande resultatposter</act:name>
   <act:id type="guid">19adda4bc889ecc05678e1173360fdb8</act:id>
@@ -4035,7 +3978,6 @@ För mer information om BAS kontoplaner se http://www.bas.se/.
   </act:slots>
   <act:parent type="guid">5eb03e1a55b0797531168a162149cc8f</act:parent>
 </gnc:account>
-
 
 <gnc:account version="2.0.0">
   <act:name>89 Årets resultat</act:name>
