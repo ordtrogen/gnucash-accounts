@@ -1205,7 +1205,7 @@
   <gnc:account version="2.0.0">
     <act:name>1910 Kassa</act:name>
     <act:id type="guid">74f2566214e844bfa2e9324d55993a20</act:id>
-    <act:type>ASSET</act:type>
+    <act:type>CASH</act:type>
     <act:commodity>
       <cmdty:space>ISO4217</cmdty:space>
       <cmdty:id>SEK</cmdty:id>
@@ -1223,7 +1223,7 @@
   <gnc:account version="2.0.0">
     <act:name>1920 PlusGiro</act:name>
     <act:id type="guid">c650e43e5a6b4b3ba199ed8d984b4f47</act:id>
-    <act:type>ASSET</act:type>
+    <act:type>BANK</act:type>
     <act:commodity>
       <cmdty:space>ISO4217</cmdty:space>
       <cmdty:id>SEK</cmdty:id>
@@ -1241,7 +1241,7 @@
   <gnc:account version="2.0.0">
     <act:name>1930 Företagskonto/checkkonto/affärskonto</act:name>
     <act:id type="guid">bafa84ae51394829a76ae6c2ead6acf5</act:id>
-    <act:type>ASSET</act:type>
+    <act:type>BANK</act:type>
     <act:commodity>
       <cmdty:space>ISO4217</cmdty:space>
       <cmdty:id>SEK</cmdty:id>
@@ -1259,7 +1259,7 @@
   <gnc:account version="2.0.0">
     <act:name>1940 Övriga bankkonton</act:name>
     <act:id type="guid">1f536a847bab4ccf97bd1f76efe8eb3d</act:id>
-    <act:type>ASSET</act:type>
+    <act:type>BANK</act:type>
     <act:commodity>
       <cmdty:space>ISO4217</cmdty:space>
       <cmdty:id>SEK</cmdty:id>
